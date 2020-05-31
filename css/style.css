@@ -1,0 +1,87 @@
+/* Variables */
+body {
+  background: #003399;
+}
+
+#rules {
+  color: #4dff4d;
+  margin: 30px auto;
+  width: 70%;
+  text-align: justify;
+  font-family: "Architects Daughter", cursive;
+  font-size: 20px;
+}
+
+#rules h1 {
+  text-align: center;
+}
+
+#rules ul {
+  list-style: none;
+}
+
+#rules ul i {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+#buttons {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+  margin: 50px auto;
+}
+
+#buttons button {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: white;
+  color: #003399;
+  font-size: 50px;
+  border: none;
+  transition: all 0.5s;
+}
+
+#buttons button:focus {
+  outline: none;
+}
+
+#buttons button:hover {
+  transform: scale(1.5);
+  transition: all 0.5s;
+}
+
+#messages {
+  width: 70%;
+  margin: 100px auto;
+  color: #4dff4d;
+  text-align: center;
+  font-size: 25px;
+  font-family: "Courgette", cursive;
+}
+
+#messages .playerScore {
+  color: green;
+  font-weight: bold;
+}
+
+#messages .computerScore {
+  color: red;
+  font-weight: bold;
+}
+
+#messages .win {
+  font-size: 50px;
+  color: green;
+  text-decoration: blink;
+}
+
+#messages .loose {
+  font-size: 50px;
+  color: red;
+  text-decoration: blink;
+}
+/*# sourceMappingURL=style.css.map */

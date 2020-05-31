@@ -1,0 +1,89 @@
+/* Variables */
+$color-main: #4dff4d;
+$color-background: #003399;
+$font: 'Courgette', cursive;
+$font-rules: 'Architects Daughter', cursive;
+
+body {
+    background: $color-background;
+}
+
+#rules {
+    color: $color-main;
+    margin: 30px auto;
+    width: 70%;
+    text-align: justify;
+    font-family: $font-rules;
+    font-size: 20px;
+
+    h1 {
+        text-align: center;
+    }
+
+    ul {
+        list-style: none;
+        
+        i {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    }
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 50px auto;
+
+    button {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background: white;
+        color: $color-background;
+        font-size: 50px;
+        border: none;
+        transition: all 0.5s;
+
+        &:focus {
+            outline: none;
+        }
+
+        &:hover {
+            transform: scale(1.5);
+            transition: all 0.5s;
+        }
+    }
+}
+
+#messages {
+    width: 70%;
+    margin: 100px auto;
+    color: $color-main;
+    text-align: center;
+    font-size: 25px;
+    font-family: $font;
+
+    .playerScore {
+        color: green;
+        font-weight: bold;
+    }
+
+    .computerScore {
+        color: red;
+        font-weight: bold;
+    }
+
+    .win {
+        font-size: 50px;
+        color: green;
+        text-decoration: blink;
+    }
+
+    .loose {
+        font-size: 50px;
+        color: red;
+        text-decoration: blink;
+    }
+}
